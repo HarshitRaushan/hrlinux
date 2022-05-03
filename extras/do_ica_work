@@ -5,7 +5,6 @@
 #  Greg Schafer for the "DIY Linux" project and is included here with his
 #  permission.
 #  ref: http://www.diy-linux.org
-#
 
 set -e
 
