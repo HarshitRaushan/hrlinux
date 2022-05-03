@@ -17,7 +17,7 @@ declare -r  TS_POSITION=${CSI}$'65G'
 declare -r  RESET_LINE=${CURSOR_OFF}${ERASE_LINE}${FRAME_OPEN}${FRAME_CLOSE}
 
 declare -r  GRAPHIC_STR="| / - \\ + "
-declare -i  SEC=0  # Seconds accumulator
+declare -i  SEC=0  # Seconds accumulation with coordination 
 declare -i  PREV_SEC=0
 
 # Prevent segfault on stripping phases
